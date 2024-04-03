@@ -19,8 +19,13 @@ jobs:
         username: admiro
         password: SUZANA100
 
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v1
+
     - name: Build Docker image
-      run: docker build -t admiro/todoapp:latest .
+      run: |
+        docker buildx build --platform linux/amd64 -t admiro/todoapp:latest .
 
     - name: Push Docker image
-      run: docker push admiro/todoapp:latest
+      run: |
+        docker push admiro/todoapp:latest
