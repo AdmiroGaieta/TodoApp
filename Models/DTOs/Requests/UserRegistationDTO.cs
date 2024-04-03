@@ -8,7 +8,7 @@ namespace TodoAPP.Models.DTOs.Requests
 {
     public class UserRegistationDTO
     {
-        [Required]
+         [Required]
          public string UserName  { get; set; }
          [Required]
          [EmailAddress]

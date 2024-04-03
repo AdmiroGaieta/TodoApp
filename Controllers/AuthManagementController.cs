@@ -93,7 +93,7 @@ namespace TodoAPP.Controllers
                     new Claim(JwtRegisteredClaimNames.Sub, user.Email),
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
                  }),
-                 Expires=DateTime.UtcNow.AddSeconds(10),
+                 Expires=DateTime.UtcNow.AddSeconds(5),
                  SigningCredentials = new SigningCredentials(new  SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
 
              };
@@ -102,7 +102,7 @@ namespace TodoAPP.Controllers
               return jwtToken;
         }
 
-        [HttpPost(Name ="Login")]
+        [HttpPost(Name ="Login")] 
         public async Task <ActionResult > Login([FromBody] UserLoginRequest user)
         {
                 if(ModelState.IsValid)

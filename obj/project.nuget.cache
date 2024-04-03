@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J0ZP64CmChVT/pQmMtVP81qc9VzL7/Awq9ukWNvDfYEt04vpiWHpsfpNR0ZGqO5GRNtYNg8QC7xCGfq8egrQ/Q==",
+  "dgSpecHash": "2ggzR4xUnDTjdh8lecw6FuKxjEMAa8s2lp/4T+afKqV7h1kr6GM0skocnJmPx62/2wjfbIBluXwluwuHk54Wag==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sysgest\\TodoAPP\\TodoAPP.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,7 @@
     "C:\\Users\\Sysgest\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.15.1\\microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
     "C:\\Users\\Sysgest\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.15.1\\microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
     "C:\\Users\\Sysgest\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Sysgest\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\Sysgest\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
     "C:\\Users\\Sysgest\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
     "C:\\Users\\Sysgest\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
