@@ -45,7 +45,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 var app = builder.Build();
 
 // Configura o pipeline de solicitação HTTP...
-if (app.Environment.IsDevelopment())
+ 
 {
     app.UseSwagger();
     app.UseSwaggerUI();
