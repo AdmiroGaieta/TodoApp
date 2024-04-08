@@ -46,10 +46,10 @@ var app = builder.Build();
 
 // Configura o pipeline de solicitação HTTP...
  
-{
+
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+
 
 // Aplica as migrações automaticamente
 using (var scope = app.Services.CreateScope())
